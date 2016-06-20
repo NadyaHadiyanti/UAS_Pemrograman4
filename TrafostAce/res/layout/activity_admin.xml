@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <Button
+        android:id="@+id/Makanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/menuAdmin"
+        android:layout_alignRight="@+id/menuAdmin"
+        android:layout_below="@+id/menuAdmin"
+        android:layout_marginTop="24dp"
+        android:text="Daftar Menu" />
+    
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Makanan"
+        android:layout_alignRight="@+id/Makanan"
+        android:layout_below="@+id/Makanan"
+        android:layout_marginTop="15dp"
+        android:text="Tambah Menu" />
+
+    <Button
+        android:id="@+id/Pesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnTambah"
+        android:layout_alignRight="@+id/btnTambah"
+        android:layout_below="@+id/btnTambah"
+        android:layout_marginTop="15dp"
+        android:text="Pesanan" />
+    
+    <Button
+        android:id="@+id/Keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Pesanan"
+        android:layout_alignRight="@+id/Pesanan"
+        android:layout_below="@+id/Pesanan"
+        android:layout_marginTop="15dp"
+        android:text="Keluar" />
+
+    <TextView
+        android:id="@+id/menuAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16pt"
+        android:text="Menu Admin"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
